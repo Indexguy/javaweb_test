@@ -8,7 +8,7 @@ public class EnglishBean implements Serializable {
     private static int count_max;// 現在何個まで出題したかを返す変数
     private static int max;// ファイルの最大値
     private static String word;// 単語をを示す
-    private static Map<Integer, String> map;// kty(integer)によって問題が表示
+    private static Map<Integer, String> map;// key(integer)によって問題が表示
     private static Set<Integer> set;// 出題されていない問題番号を管理
     public static Random random = new Random();// ランダム
 
