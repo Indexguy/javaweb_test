@@ -1,0 +1,41 @@
+* {
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+h3 {
+    border:5px solid grey;
+    background-color: lightgrey;
+    line-height: 100px;
+    height: 100px;
+}
+
+h4{
+    font-size: 20px;
+    background-color:lightgrey;
+    border:2px solid grey;
+}
+
+.division {
+    width: clac(100vw - 1px);
+    height: calc(100%);
+    margin: 3px;
+}
+
+.div1 {
+    position:absolute;
+    width: calc(100%/5 - 12px);
+    border: 1px solid grey;
+    float: left;
+    margin:2px;
+    height: calc(100%-6px);
+}
+
+.div2 {
+    padding:5px;
+    margin: 3px;
+    width: calc(100vw - 20vw - 20px);
+    border: 1px solid grey;
+    float: right;
+    height: calc(100%-6px);
+}
